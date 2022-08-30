@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.22074.168" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>CIEmployeeTaskPN</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="CI Employee Task  -PN" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.3.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>cierp</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CItePortal" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="CI ERP Publisher" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cierp</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="cierp_companyemployeelocation" behavior="2" />
+      <RootComponent type="1" schemaName="cierp_companyemployees" behavior="2" />
+      <RootComponent type="1" schemaName="cierp_hubzoneemployee" behavior="2" />
+      <RootComponent type="1" schemaName="cierp_hubzoneemployeeattachid" behavior="2" />
+      <RootComponent type="1" schemaName="cierp_hubzonepayroll" behavior="2" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_addressid" displayName="Address ID" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_companyemployeelocation" displayName="Company Employee location" solution="Active" />
+        <Dependent type="1" schemaName="cierp_companyemployeelocation" displayName="Company Employee location" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_companyemployeeresidentialaddress" displayName="Company Employee Address" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_companyemployees" displayName="Company Employee" solution="Active" />
+        <Dependent type="1" schemaName="cierp_companyemployees" displayName="Company Employee" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_hubzoneemployee" displayName="HUBZone Employee" solution="Active" />
+        <Dependent type="1" schemaName="cierp_hubzoneemployee" displayName="HUBZone Employee" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_hubzoneemployeeaddress" displayName="HUBZone Employee Address" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_hubzoneemployeeattachid" displayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="1" schemaName="cierp_hubzoneemployeeattachid" displayName="HUBZone Employee AttachID" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cierp_hubzonepayroll" displayName="HUBZone Pay Period Report" solution="Active" />
+        <Dependent type="1" schemaName="cierp_hubzonepayroll" displayName="HUBZone Pay Period Report" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_cierp_addressid_EmployeeName_cierp_compan" displayName="cierp_cierp_addressid_EmployeeName_cierp_compan" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_cierp_companyemployees_cierp_hubzoneemployee_CompanyEmployee" displayName="cierp_cierp_companyemployees_cierp_hubzoneemployee_CompanyEmployee" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_CompanyEmployeelocation_EmployeeNam" displayName="cierp_CompanyEmployeelocation_EmployeeNam" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_CompanyEmployeelocation_EmployeeNam" displayName="cierp_CompanyEmployeelocation_EmployeeNam" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_CompanyEmployeeResidentialAddress_E" displayName="cierp_CompanyEmployeeResidentialAddress_E" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_hubzoneemployeeaddress_cierp_hubzon" displayName="cierp_hubzoneemployeeaddress_cierp_hubzon" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_hubzoneemployeeaddress_cierp_hubzon" displayName="cierp_hubzoneemployeeaddress_cierp_hubzon" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_HUBZoneEmployeeAttachID_cierp_hubzo" displayName="cierp_HUBZoneEmployeeAttachID_cierp_hubzo" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_HUBZoneEmployeeAttachID_cierp_hubzo" displayName="cierp_HUBZoneEmployeeAttachID_cierp_hubzo" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_hubzoneemployeeaddress_cierp_hubzoneid" displayName="cierp_hubzoneemployeeaddress_cierp_hubzoneid" parentSchemaName="cierp_hubzoneemployeeaddress" parentDisplayName="HUBZone Employee Address" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_CompanyEmployeelocation_cierp_Locat" displayName="cierp_CompanyEmployeelocation_cierp_Locat" parentSchemaName="cierp_locations" parentDisplayName="Locations" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_contact_cierp_companyemployees_EmployeeContact" displayName="cierp_contact_cierp_companyemployees_EmployeeContact" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cierp_contact_cierp_hubzoneemployee_employeenamelookup" displayName="cierp_contact_cierp_hubzoneemployee_employeenamelookup" parentSchemaName="contact" parentDisplayName="Contact" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addresscity" displayName="City" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addresscountryregion" displayName="Country" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addressline1" displayName="Address Line 1" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addressline2" displayName=" Address Line 2" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addressline3" displayName=" Address Line 3" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addressstateprovince" displayName="State" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addresstype" displayName="Address Type" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_addresszippostalcode" displayName="ZIP/Postal Code" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeename" displayName="Employee Name" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_enddate" displayName="End Date" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hoursallocationpercentage" displayName="Hours Allocation (Percentage)" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzoneornot" displayName="HUBZone or  Not?" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_locations" displayName="Locations" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_name" displayName="Name" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_startdate" displayName="Start Date" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_zipsuffix" displayName="ZIP Suffix/Post Office Box" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_effective_date" displayName="Effective Date" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employee_type" displayName="Employee Type" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeecontact" displayName="Employee Name" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeeemail" displayName="Work Email" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeeid" displayName="Employee ID" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeesource" displayName="Employee Source" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeestatus" displayName="Employee Status" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_firstname" displayName="First Name" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hire_date" displayName="Hire Date" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzone" displayName="HUBZone" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_includeinhubzonepayperiodreport" displayName="Include in HUBZone Pay Period Report?" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_includeinpayroll" displayName="Include in Payroll?" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_lastname" displayName="Last Name" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_middlename" displayName="Middle Name" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_militaryservice" displayName="Military Service" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_name" displayName="Name" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_office" displayName="Office" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_terminateddate" displayName="Terminated Date" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_title" displayName="Title" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_unanetname" displayName="Unanet Name" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_attempttomaintain" displayName="Attempt to Maintain?" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_companyemployee" displayName="Company Employee" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_continuouslyremainedemployed" displayName=" Continuously Remained Employed" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_eligibleforexception" displayName="Eligible For Exception" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeeemail" displayName="Employee Email" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeeid" displayName="Employee ID" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeename" displayName="Employee Name" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_employeenamelookup" displayName="Employee Name" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_firstname" displayName="First Name" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzone180dayperiodenddate" displayName="180 day period end date" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzone180dayperiodstartdate" displayName="180 day period start date" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzonequalification" displayName="Qualification Start Date" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzonequalificationenddate" displayName="Qualification End Date" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzonequalified" displayName="HUBZone Qualified" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzoneresident" displayName="HUBZone Resident" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_isredesignatedhubzone" displayName="Is Redesignated HUBZone?" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_lastname" displayName="Last Name" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_legacy" displayName="Legacy" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_legacyqualifydate" displayName="Legacy Qualify Date" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_middlename" displayName="Middle Name" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_name" displayName="Name" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_redesignatedqualifieddate" displayName="Redesignated Qualified date(Valid Until)" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_expirydate" displayName="Expiry Date" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Employee AttachID quick create form" parentDisplayName="HUBZone Employee AttachID" id="{1e487e8d-3cbb-ec11-983f-6045bd00be0c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_expirydate" displayName="Expiry Date" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzoneemployee" displayName="HUBZone Employee" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_hubzoneemployeeaddress" displayName="HUBZone Employee Address" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_idtype" displayName="ID Type" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Employee AttachID quick create form" parentDisplayName="HUBZone Employee AttachID" id="{1e487e8d-3cbb-ec11-983f-6045bd00be0c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_idtype" displayName="ID Type" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_issueorstartdate" displayName="Issue or Start Date" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Employee AttachID quick create form" parentDisplayName="HUBZone Employee AttachID" id="{1e487e8d-3cbb-ec11-983f-6045bd00be0c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_issueorstartdate" displayName="Issue or Start Date" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_isthisaproofforhubzonepayperiodreport" displayName="Is this a proof for HUBZone Pay Period Report?" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="cierp_name" displayName="Name" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="ownerid" displayName="Owner" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="statecode" displayName="Status" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="W2, Mailing, Permanent address Company Employee Residential Addresses" displayName="W2, Mailing, Permanent address Company Employee Residential Addresses" parentSchemaName="cierp_companyemployeeresidentialaddress" parentDisplayName="Company Employee Address" solution="Active" id="{0938ad89-9f27-ed11-9db1-000d3a5a98c8}" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="HUBZone Employee AttachIDS Being Followed" displayName="HUBZone Employee AttachIDS Being Followed" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" id="{1700cdd6-27e9-4058-9ea4-5b58f7ca176d}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Address IDS" displayName="Active Address IDS" parentSchemaName="cierp_addressid" parentDisplayName="Address ID" solution="Active" id="{1a38826c-afd7-4487-9572-8a47d730b552}" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Locations Lookup View" displayName="Locations Lookup View" parentSchemaName="cierp_locations" parentDisplayName="Locations" solution="Active" id="{1ca8eda0-b247-4148-9f44-31c40648caa2}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="HUBZone Employee AttachIDS I Follow" displayName="HUBZone Employee AttachIDS I Follow" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" id="{1ecd3863-cf5e-4303-8016-e13ebc0199f9}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="HUBZone Employee Address" displayName="HUBZone Employee Address" parentSchemaName="cierp_hubzoneemployeeaddress" parentDisplayName="HUBZone Employee Address" solution="Active" id="{2ac08518-fba6-ec11-983f-0022480b1cf5}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active HUBZone Employee AttachIDS" displayName="Active HUBZone Employee AttachIDS" parentSchemaName="cierp_hubzoneemployeeattachid" parentDisplayName="HUBZone Employee AttachID" solution="Active" id="{30f7c33b-7a65-4981-96ec-aa40aaab3319}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active HUBZone Employee Address" displayName="Active HUBZone Employee Address" parentSchemaName="cierp_hubzoneemployeeaddress" parentDisplayName="HUBZone Employee Address" solution="Active" id="{423738f8-5ea5-4cc5-8bc2-42fb66d9a8d3}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Company Employee locations" displayName="Active Company Employee locations" parentSchemaName="cierp_companyemployeelocation" parentDisplayName="Company Employee location" solution="Active" id="{776ba3fb-02bb-48f4-8a7c-d870aabe26f2}" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Hub Zone Employee Address Lookup View" displayName="Hub Zone Employee Address Lookup View" parentSchemaName="cierp_hubzoneemployeeaddress" parentDisplayName="HUBZone Employee Address" solution="Active" id="{78012939-2d57-4484-b855-d177f379ff2a}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Active Company Employee Residential Addresses" displayName="Active Company Employee Residential Addresses" parentSchemaName="cierp_companyemployeeresidentialaddress" parentDisplayName="Company Employee Address" solution="Active" id="{79df13bf-4fea-4840-9c9d-1f2510d47547}" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Current Company Employee Residential Addresses " displayName="Current Company Employee Residential Addresses " parentSchemaName="cierp_companyemployeeresidentialaddress" parentDisplayName="Company Employee Address" solution="Active" id="{b03d06fd-a927-ed11-9db1-000d3a5998fa}" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Company Employees Lookup View" displayName="Company Employees Lookup View" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" id="{d4895172-ca1e-4802-8d5c-24368d3f475f}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Company Employees Lookup View" displayName="Company Employees Lookup View" parentSchemaName="cierp_companyemployees" parentDisplayName="Company Employee" solution="Active" id="{d4895172-ca1e-4802-8d5c-24368d3f475f}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Hub Zone Employee Lookup View" displayName="Hub Zone Employee Lookup View" parentSchemaName="cierp_hubzoneemployee" parentDisplayName="HUBZone Employee" solution="Active" id="{fa302d3c-5f2b-4273-b8f9-ae388c40290b}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact Quick Form" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}">
+          <package>msdynce_AppCommonAnchor (9.0.22074.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Locations" solution="Active" id="{bf19b620-94dd-453a-8d4a-ae0f40436ae3}" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Company Employee" solution="Active" id="{da50d570-454c-4bd4-9916-b4012026f734}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Contact quick view form HUBZone" parentDisplayName="Contact" solution="Active" id="{ecf4b123-e11f-ed11-b83e-000d3a5cdcb3}" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp__companyemployee_hidefield" displayName="cierp__companyemployee_hidefield" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_ApplyAddressTypeFilter" displayName="cierp_ApplyAddressTypeFilter" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_attachiddatevalidation" displayName="cierp_attachiddatevalidation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_calculatehoursallocationpercentage" displayName="cierp_calculatehoursallocationpercentage" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_companyemployee_lockemployeeField" displayName="cierp_companyemployee_lockemployeeField" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_CompanyEmployeeLocationfiledtypevalidation" displayName="cierp_CompanyEmployeeLocationfiledtypevalidation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_CompanyEmployees_Setnametofirstnamepluslastname" displayName="cierp_CompanyEmployees_Setnametofirstnamepluslastname" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_CompanyEmployees_Setnametofirstnamepluslastname" displayName="cierp_CompanyEmployees_Setnametofirstnamepluslastname" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_Employeenamefromcontact" displayName="cierp_Employeenamefromcontact" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_Exception" displayName="cierp_Exception" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_fieldstartdate" displayName="cierp_fieldstartdate" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_fileddatevalidation" displayName="cierp_fileddatevalidation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_getcompanylocation" displayName="cierp_getcompanylocation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_getcontactname" displayName="cierp_getcontactname" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_gethubzoneemployeenametoattachid" displayName="cierp_gethubzoneemployeenametoattachid" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_Gethubzonename" displayName="cierp_Gethubzonename" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_getnamefromcontact" displayName="cierp_getnamefromcontact" solution="Active" />
+        <Dependent type="60" displayName="information" parentDisplayName="Company Employee" id="{69c42eab-2aaa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_getnametohubzone" displayName="cierp_getnametohubzone" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_hubzoneemployee_setdates_AttachIDtoHAddress" displayName="cierp_hubzoneemployee_setdates_AttachIDtoHAddress" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_idtypeactivation" displayName="cierp_idtypeactivation" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_lockemployeehubzone" displayName="cierp_lockemployeehubzone" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_lockhubzoneemployee" displayName="cierp_lockhubzoneemployee" solution="Active" />
+        <Dependent type="60" displayName="HUBZone Records" parentDisplayName="HUBZone Employee" id="{63ca8f32-1faa-ec11-983f-000d3a3367ab}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="cierp_oneidtypeforproof" displayName="cierp_oneidtypeforproof" solution="Active" />
+        <Dependent type="60" displayName="Information" parentDisplayName="HUBZone Employee AttachID" id="{e236dc17-86fa-42ec-b699-1f593310d2c1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/SitemapIcons/SVG/Teamwork.svg" displayName="msdyn_/SitemapIcons/SVG/Teamwork.svg" solution="msdyn_ProjectServiceCore (1.0.0.87)">
+          <package>ProjectOperations_Anchor (4.44.0.22)</package>
+        </Required>
+        <Dependent type="1" schemaName="cierp_companyemployees" displayName="Company Employee" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="Sales/_imgs/productgrid/PriceLists.svg" displayName="Sales/_imgs/productgrid/PriceLists.svg" solution="msdynce_SalesPatch (9.0.1904.3002)">
+          <package>msdynce_SalesAnchor (9.0.22074.10001)</package>
+        </Required>
+        <Dependent type="1" schemaName="cierp_hubzonepayroll" displayName="HUBZone Pay Period Report" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.InputMask.InputMaskControl" displayName="MscrmControls.InputMask.InputMaskControl" solution="CustomControlsCore (9.2.22074.00168)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Company Employee location" id="{14b1be2e-f5b8-403d-b0d3-278abac8ca5c}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

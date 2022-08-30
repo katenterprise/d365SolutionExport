@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{63ca8f32-1faa-ec11-983f-000d3a3367ab}</formid>
+    <IntroducedVersion>1.1.18.20</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls" shownavigationbar="false" showImage="false" maxWidth="3000">
+      <tabs>
+        <tab name="tab_7" id="{db4b4930-7c97-aa9d-dc10-509c092a7590}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{06713b12-1494-49e1-a16b-91bdac7d4eac}" labelid="{d004ed1a-7751-4dac-a6e3-7a428f68aaef}" name="{06713b12-1494-49e1-a16b-91bdac7d4eac}" columns="1" locklevel="0" labelwidth="200" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3527181e-5c0e-7153-8220-d01623d874d4}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="HUBZone Resident" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_hubzoneresident" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cierp_hubzoneresident" disabled="false" uniqueid="{9655681d-10dd-6259-4b01-1db60a8093b8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5a80b257-87de-4784-9396-cb61aafe5194}" locklevel="0" colspan="1" rowspan="1" showlabel="true">
+                        <labels>
+                          <label description="Employee Name" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_companyemployee" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cierp_companyemployee" disabled="false" uniqueid="{b7879100-74bb-a209-81ca-b493157e70b7}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{D4895172-CA1E-4802-8D5C-24368D3F475F}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5596984-de45-4440-9aa1-d92b4f32983b}" locklevel="0" colspan="1" rowspan="1" visible="false">
+                        <labels>
+                          <label description="Employee Name" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_employeenamelookup" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="cierp_employeenamelookup" disabled="false" uniqueid="{1e164c93-38a5-43ee-950e-0c822267a5ce}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2507a954-3076-4186-ab49-63cdbc18337d}" showlabel="true" locklevel="0" labelid="{2c82c997-3bc9-4c30-9c99-d613081e6e03}" visible="false">
+                        <labels>
+                          <label description="Qualification Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_hubzonequalification" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cierp_hubzonequalification" disabled="false" uniqueid="{aad2c17c-1808-63d2-7241-bd51555144a6}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76425cb1-672b-2739-3a9a-dda1739ad4a9}" showlabel="true" locklevel="0" labelid="{f171aa70-1e4a-4934-ab17-d827a7d03281}" visible="false">
+                        <labels>
+                          <label description="Qualification End Date" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_hubzonequalificationenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cierp_hubzonequalificationenddate" disabled="false" uniqueid="{9d830e08-8d12-81bd-97b0-526352a208d8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{92d8140e-5dae-14b0-b686-b2996b10307a}" showlabel="true" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="HUBZone Qualified" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_hubzonequalified" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cierp_hubzonequalified" disabled="false" uniqueid="{dac4b40c-8464-c2ad-6eb5-b3e8e99830c1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b2958f0f-9489-4014-a673-d50ddb90374e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Legacy" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_legacy" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cierp_legacy" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d382bc8-64fd-49ed-92b7-adf636dd6983}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Legacy Qualify Date" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_legacyqualifydate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cierp_legacyqualifydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2916eb39-71dc-4037-b635-ecadb4f71a3b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Attempt to Maintain?" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_attempttomaintain" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cierp_attempttomaintain" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3db88e35-eea4-badc-9e73-e7d5dedd42a7}" showlabel="true" locklevel="0" labelid="{53561b1f-b186-4be6-8139-84577c4bca6d}" visible="false">
+                        <labels>
+                          <label description="180 Day Period Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_hubzone180dayperiodstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cierp_hubzone180dayperiodstartdate" disabled="false" uniqueid="{a60c4227-8925-a938-3ace-717012e8e4c8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0c6a3700-3a41-dd33-a73a-c6a1ed5d9d79}" showlabel="true" locklevel="0" labelid="{4bee8cf3-36bc-4886-a347-2bde7ab143b0}" visible="false">
+                        <labels>
+                          <label description="180 Day Period End Date" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_hubzone180dayperiodenddate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="cierp_hubzone180dayperiodenddate" disabled="false" uniqueid="{9e38ad66-d611-4b55-6d3b-eca8b361d191}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06e8a415-3d99-4687-9726-aff699c2b57a}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Is Redesignated HUBZone?" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_isredesignatedhubzone" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cierp_isredesignatedhubzone" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7702fb4d-8389-47c8-a986-543dcced6d8d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Redesignated Qualified date(Valid Until)" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_redesignatedqualifieddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="cierp_redesignatedqualifieddate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d2636da-be3d-43fd-ad3e-e00792847fa0}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description=" Continuously Remained Employed" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_continuouslyremainedemployed" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="cierp_continuouslyremainedemployed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4d98e09f-bc0b-4eb2-8c0e-e33fad78f53b}" locklevel="0" colspan="1" rowspan="1" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Eligible For Exception" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_eligibleforexception" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="cierp_eligibleforexception" disabled="false" uniqueid="{27e0ce28-5686-77da-2a18-864c530dca36}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{844c7115-20fe-4663-989f-9805905fc57c}" labelid="{4294104f-1d15-41e0-bbbe-8397350d6510}" showlabel="false" locklevel="1" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" uniqueid="{a8e73748-5d76-0b58-7b85-9598b9d7bd77}" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca75cd97-f667-4b86-9db0-42323e350530}" labelid="{29676085-359f-464c-b582-b948b8887888}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cierp_name" uniqueid="{98e1507d-3b44-29e1-6de5-5626bcd31eec}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5418a40c-9748-5a41-14a7-77d99534b72a}" showlabel="true" locklevel="0" visible="false" availableforphone="false">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cierp_firstname" disabled="false" uniqueid="{6824b435-ca95-9501-43a5-b820867b0185}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c37625d-0ce3-a6ce-deca-b05ae62163bb}" showlabel="true" locklevel="0" visible="false" availableforphone="false">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cierp_lastname" disabled="false" uniqueid="{b3c6eee1-d056-a7d5-717a-639cb531d548}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85ad4c8a-cac8-507e-8d3e-8dca4418ee16}" showlabel="true" locklevel="0" visible="false" availableforphone="false">
+                        <labels>
+                          <label description="Middle Name" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_middlename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cierp_middlename" disabled="false" uniqueid="{355b05a5-3ca2-483b-4027-7c45159495dd}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e4b7d62-94b3-2895-5086-8d960c489dc3}" showlabel="true" locklevel="0" visible="false" availableforphone="false">
+                        <labels>
+                          <label description="Employee ID" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_employeeid" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cierp_employeeid" disabled="false" uniqueid="{a1d1b602-2a36-6c7d-18ca-b723708659a2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{51bdbccb-51ca-2d74-c2c5-7db15d278872}" showlabel="true" locklevel="0" visible="false" availableforphone="false">
+                        <labels>
+                          <label description="Employee Name" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_employeename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cierp_employeename" disabled="false" uniqueid="{beaa738b-785c-e0b2-6268-0d6cbeea4589}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d3462a8-ee6b-aa7c-c473-ee2ae0b27a10}" showlabel="true" locklevel="0" visible="false" availableforphone="false">
+                        <labels>
+                          <label description="Employee Email" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_employeeemail" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="cierp_employeeemail" disabled="false" uniqueid="{1e688a8d-aa47-9e11-4e4b-b11479237e78}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_7_section_2" showlabel="true" showbar="false" locklevel="0" id="{aabae5d7-b4b7-9bb4-d028-8c1c8c633911}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Employee Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{1fb0de1a-5fb6-4eff-8c65-9a4007fea0f2}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1660894305998" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1660894305998" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cierp_companyemployee">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="cierp_companyemployees"&gt;da50d570-454c-4bd4-9916-b4012026f734&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cc32a76e-ab4b-3176-d35c-0764b0da51d5}" showlabel="false" colspan="1" auto="false">
+                        <labels>
+                          <label description="Employee Name" languagecode="1033" />
+                        </labels>
+                        <control id="EmployeeName" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="cierp_employeenamelookup" disabled="false">
+                          <parameters>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;ecf4b123-e11f-ed11-b83e-000d3a5cdcb3&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <ControlMode>Edit</ControlMode>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{bb47c201-d173-443a-8c57-f7919be4f00d}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="New QV control 1660894224134" languagecode="1033" />
+                        </labels>
+                        <control id="QuickviewControl1660894224134" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c80ac578-26a7-dde2-842a-63908b742ceb}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Salary" languagecode="1033" />
+                        </labels>
+                        <control id="cierp_salary" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="cierp_salary" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="HUBZoneAddress" id="2b49344d-cff4-483b-bb14-5cf95188415b" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="HUBZone Address" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="HUBZoneAddress" id="702bde70-5126-46b0-905a-a7dcc0af09f3" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="HUBZone Address" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{3893bbee-17b0-467f-8ec6-2ad047ff88a7}" rowspan="4" colspan="1" auto="true" showlabel="false">
+                        <labels>
+                          <label description="HUBZone Address" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_1" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{1ac19ea9-563b-4009-e7d9-2339572a4375}">
+                          <parameters>
+                            <RecordsPerPage>250</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <TargetEntityType>cierp_hubzoneemployeeaddress</TargetEntityType>
+                            <ViewId>{2AC08518-FBA6-EC11-983F-0022480B1CF5}</ViewId>
+                            <ViewIds>{423738F8-5EA5-4CC5-8BC2-42FB66D9A8D3},{2AC08518-FBA6-EC11-983F-0022480B1CF5}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>cierp_hubzoneemployeeaddress_cierp_hubzon</RelationshipName>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <VisualizationId />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Document" id="{ec74b5bd-6494-4387-458e-561506168ca0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{489e98ab-5618-42a9-937c-4c1dbd8933be}" visible="true">
+          <labels>
+            <label description="ID and Documents" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="true" showbar="false" locklevel="0" id="{dbc2ba49-38e2-682b-d8a6-783d7c8bc641}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{e242726e-b347-4844-b54c-aa95879d0bad}" celllabelalignment="Left" celllabelposition="Left" height="auto">
+                  <labels>
+                    <label description="HUBZone Employee ID" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{9c0a59ca-7711-4a06-ae5e-741626c5876b}" rowspan="4" colspan="1" auto="true" showlabel="false">
+                        <labels>
+                          <label description="New SG control 1649854970244" languagecode="1033" />
+                        </labels>
+                        <control id="Subgrid_2" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{1c03bab9-d2d7-7412-ed55-95b754768921}">
+                          <parameters>
+                            <RecordsPerPage>250</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <TargetEntityType>cierp_hubzoneemployeeattachid</TargetEntityType>
+                            <ViewId>{30F7C33B-7A65-4981-96EC-AA40AAAB3319}</ViewId>
+                            <ViewIds>{30F7C33B-7A65-4981-96EC-AA40AAAB3319},{1700CDD6-27E9-4058-9EA4-5B58F7CA176D},{1ECD3863-CF5E-4303-8016-E13EBC0199F9}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RelationshipName>cierp_HUBZoneEmployeeAttachID_cierp_hubzo</RelationshipName>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="412ba5bf-aa54-4a59-aae9-5f7b4c2b7ac2" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Timeline" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_5_section_1" id="97b11047-91ad-4223-8127-0519c825a58a" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" visible="true">
+                  <labels>
+                    <label description="Time line" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ebe88c18-3d1b-4fef-855f-1d3e95983671}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{04c35573-241e-7139-5a22-7c9c2991cced}" showlabel="true" rowspan="15" auto="false" colspan="1" locklevel="0">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{4aaa67ec-07b6-cb81-088e-a684d1803e1d}" disabled="false">
+                          <parameters>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes,Posts</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientEnableWhatsNewFilter>false</UClientEnableWhatsNewFilter>
+                            <UClientActivities>appointment,campaignactivity,email,fax,incidentresolution,letter,opportunityclose,orderclose,phonecall,quoteclose,recurringappointmentmaster,socialactivity,task,msfp_surveyinvite,msfp_surveyresponse</UClientActivities>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <header id="{f1557dfd-858e-47a1-a2e9-a70ac1a5cd30}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{781f0402-0828-4bdb-8c69-54329a76158b}" showlabel="false" labelid="{c97a7b15-4dda-4cad-9c22-0a02bdc64002}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e65b81af-8123-47fa-bb64-e2976586bae0}" showlabel="false" labelid="{b6b5b129-54c6-42bc-8cf8-fa61f09d9c8c}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9f4ca628-4a03-461f-99b3-e082b87c4c13}" showlabel="false" labelid="{0d1f32e0-e29a-4b87-98bd-b3f0dfe1f114}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{ef1271fb-f45d-48f6-8ec1-b1fba015160e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{47d4d461-ceab-4847-8102-a70393e599a6}" showlabel="false" labelid="{bd83f823-6150-4f21-97fb-0e8091314508}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{47c11d66-77d9-4201-84a6-a80c23264ed1}" showlabel="false" labelid="{b97d2068-51f5-4160-a150-62979bd36100}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7024d11e-f340-47fa-915a-4538b59bf7fb}" showlabel="false" labelid="{4681e686-62ab-4ba4-a447-47b30ecfe502}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries>
+        <Library name="cierp_getnametohubzone" libraryUniqueId="{9281ae12-e532-73c2-6e36-90c766028963}" />
+        <Library name="cierp_getcontactname" libraryUniqueId="{206da9ac-149a-7b75-19a8-674add4eca11}" />
+        <Library name="cierp_lockemployeehubzone" libraryUniqueId="{be7a14c7-ccd6-aa34-776c-3ecc01bd9686}" />
+        <Library name="cierp_lockhubzoneemployee" libraryUniqueId="{7c815575-d979-4a01-eaee-309301c98d95}" />
+        <Library name="cierp_Exception" libraryUniqueId="{3829372a-0c7b-c7b1-d944-a2125b56190c}" />
+      </formLibraries>
+      <events>
+        <event name="onload" application="false" active="false">
+          <Handlers>
+            <Handler functionName="getnametohubzone" libraryName="cierp_getnametohubzone" handlerUniqueId="{3b830c64-2ea6-2505-4ccc-0711c070d95d}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="lockemployeehubzone" libraryName="cierp_lockemployeehubzone" handlerUniqueId="{4b745c06-64b3-516c-0b25-72a8ecd280ab}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cierp_employeenamelookup">
+          <Handlers>
+            <Handler functionName="getnametohubzone" libraryName="cierp_getnametohubzone" handlerUniqueId="{45300a55-d64e-6975-ac14-18e293856673}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onchange" application="false" active="false" attribute="cierp_companyemployee">
+          <Handlers>
+            <Handler functionName="getnametohubzonename" libraryName="cierp_getcontactname" handlerUniqueId="{ae5e8b83-1250-b1b9-9762-58513429bb40}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+        <event name="onsave" application="false" active="false">
+          <Handlers>
+            <Handler functionName="lockhubzoneemployee" libraryName="cierp_lockhubzoneemployee" handlerUniqueId="{9aa7a90c-4a50-c66d-0630-91ad5ea2b9c8}" enabled="true" parameters="" passExecutionContext="true" />
+            <Handler functionName="Exception" libraryName="cierp_Exception" handlerUniqueId="{ed980100-4ae6-52aa-036e-b5e2681aecbe}" enabled="true" parameters="" passExecutionContext="true" />
+          </Handlers>
+        </event>
+      </events>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="HUBZone Records" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

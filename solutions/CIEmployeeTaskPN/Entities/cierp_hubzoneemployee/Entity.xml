@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name LocalizedName="HUBZone Employee" OriginalName="Hub Zone Employee">cierp_hubzoneemployee</Name>
+  <EntityInfo>
+    <entity Name="cierp_hubzoneemployee" unmodified="1">
+      <attributes />
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <RibbonDiffXml />
+</Entity>
