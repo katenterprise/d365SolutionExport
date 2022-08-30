@@ -9,7 +9,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: CIEmployeeTaskPN
+        default: LeaveManagement
        #Do Not change these values
       solution_exported_folder:
         description: 'folder name for staging the exported solution *do not change*'
@@ -25,7 +25,7 @@ on:
        default: solutions/
 env:
 #edit your values here
-  ENVIRONMENT_URL: 'https://katincitedev.crm.dynamics.com'
+  ENVIRONMENT_URL: 'https://kat-test01.crm.dynamics.com'
   CLIENT_ID: 'aa1c3795-545f-4dd5-8cf7-a560e2e928fa'
   TENANT_ID: '2eb444f8-6512-43c0-bfa8-31c1b9ca7e3e'
 
